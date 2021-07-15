@@ -7,6 +7,9 @@ h1{
     font-family: 'lucida handwriting';
     color: #0178D4;
 }
+h2{
+    color: whitesmoke;
+}
 .banner{
     width: 100%;
     height: 100vh;
@@ -72,23 +75,6 @@ button{
     position: relative;
     overflow: hidden;
 }
-span{
-    background: #009688;
-    height: 100%;
-    width: 0;
-    border-radius: 25px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    z-index: -1;
-    transition: 0.5s;
-}
-button:hover span{
-    width: 100%;
-}
-button:hover{
-    border: none;
-}
 .container {
    width: 100%;
    height: 150vh;
@@ -100,7 +86,7 @@ button:hover{
     display: flex;
     height: 88%;
     align-items: center;
-    color: darkturquoise;
+    color: whitesmoke;
 }
 .col {
     flex-basis: 50%;
@@ -148,7 +134,8 @@ button:hover{
     top: 60%;
     right: 10%;
 }
-.card:hover{transform: translateY(-10px);
+.card:hover{
+    transform: translateY(-10px);
 }
 #our{
     text-align: center;
