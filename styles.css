@@ -75,6 +75,10 @@ button{
     position: relative;
     overflow: hidden;
 }
+.par {
+    font-family: monospace;
+    font-size: 16px;
+}
 .container {
    width: 100%;
    height: 150vh;
@@ -90,6 +94,11 @@ button{
 }
 .col {
     flex-basis: 50%;
+}
+.colc {
+    flex-basis: 50%;
+    font-family: monospace;
+    font-size: 20px;
 }
 .about{
     width: 188px;
@@ -116,7 +125,7 @@ button{
     transition: transform 0.5s;
 }
 .card1{
-    background-image: url(/pics/Kutullo.jpg);
+    background-image: url(/pics/wlogo.jpg);
     position: absolute;
     top: 20%;
 }.card2{
@@ -176,7 +185,7 @@ span.border {
         margin: 10px;
     }
     .active {
-        background-color: darkturquoise;
+        background-color: #9b59b6;
     }
 .social{
     position: absolute;
@@ -233,4 +242,7 @@ span.border {
     cursor: pointer;
     margin-top: 8px;
     width: 100%;
+}
+.message{
+    color: #0178D4;
 }
