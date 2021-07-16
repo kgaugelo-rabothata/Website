@@ -1,1 +1,2 @@
-This is my first website created using html, css and a bit of javascript
+# Website
+This is my first website created using html, CSS and Javascript.
